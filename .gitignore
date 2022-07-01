@@ -36,3 +36,7 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
+#sanity 
+/sanity/node_modules
+#history
+.history
