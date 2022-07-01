@@ -9,7 +9,7 @@ import {
 } from "@heroicons/react/outline";
 import { fetchComments } from "../utils/fetchComments";
 import { useSession } from "next-auth/react";
-import { CommentBody } from "../.history/typings.d_20220630225735";
+import { CommentBody } from "../typings";
 import toast from "react-hot-toast";
 interface Props {
   tweet: Tweet;
